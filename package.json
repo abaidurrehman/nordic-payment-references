@@ -1,0 +1,25 @@
+{
+  "name": "nordic-payment-references",
+  "version": "0.1.0",
+  "description": "Generate and validate Nordic payment references: Norwegian KID, Swedish OCR, Danish FIK 71, Finnish viitenumero and ISO 11649 RF creditor references. Zero dependencies.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "lib", "README.md", "LICENSE", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "pack:check": "npm pack --dry-run"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["kid", "kidnummer", "ocr", "fik", "betalings-id", "viitenumero", "viite", "rf-reference", "iso-11649", "creditor-reference", "payment-reference", "norway", "sweden", "denmark", "finland", "invoice", "mod10", "mod11"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/abaidurrehman/nordic-payment-references.git" },
+  "homepage": "https://invoicecraftly.com/tools/",
+  "sideEffects": false
+}
