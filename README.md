@@ -28,3 +28,7 @@ validateRfReference('RF18 5390 0754 7034').valid;       // true
 Browser-local tools using the same logic: [Norwegian KID](https://invoicecraftly.com/no/verktoy/kid-nummer/), [Swedish OCR](https://invoicecraftly.com/se/verktyg/ocr-referens/), [Danish FIK](https://invoicecraftly.com/dk/vaerktojer/fik-betalingsreference/), [Finnish viitenumero](https://invoicecraftly.com/fi/tyokalut/viitenumero/), [RF creditor reference](https://invoicecraftly.com/tools/rf-creditor-reference).
 
 MIT licensed. Maintained by [InvoiceCraftly](https://invoicecraftly.com).
+
+## Maintainers
+
+See [RELEASING.md](RELEASING.md) for the npm Trusted Publishing release runbook.
